@@ -1,2 +1,2 @@
-# wziwen.github.com
+# Wziwen
 WenZiwen's blog pages on github
