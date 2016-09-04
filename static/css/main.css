@@ -172,4 +172,5 @@ footer {
 }
 .pager li.active a {
     background: rgba(89, 148, 129, 0.3);
+    padding-bottom: 10px;
 }

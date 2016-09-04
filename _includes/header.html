@@ -2,14 +2,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-4 col-xs-12">
+            <!-- 头像 -->
             <div class="row-picture">
               <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
             </div>
+            <!-- 名字+描述 -->
             <div class="row-details">
               <h4 class="list-group-item-heading">{{ site.author }}</h4>
               <p class="list-group-item-text">{{ site.about }}</p>
-              {% include social_links.html %}
-            </div>
+              <!-- 社交账号, 暂时不用 -->
+              <!-- {% include social_links.html %} -->
+            </div>            
             <div class="navbar-header pull-right">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -17,6 +20,7 @@
               </button>
             </div>
           </div>
+          <!-- 文章标题信息 -->
           <div class="col-md-9 col-sm-8 col-xs-12">
             <h2 class="blog-title-pro">{{ page.title }}</h2>
             <p class="info">
